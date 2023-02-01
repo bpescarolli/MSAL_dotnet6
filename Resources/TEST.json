@@ -1,0 +1,6 @@
+{
+  "ClientID": null,
+  "TenantID": null,
+  "Address": [ "local API adress1", "local API adress2" ],
+  "AllowedGroupsID": [ null, null ]
+}

@@ -1,0 +1,6 @@
+{
+	"ClientID": "YourClientID",
+	"TenantID": "YourTenant",
+	"Address": "https://yourcompany.azure-api.net/softAPI",
+	"AllowedGroupsID": [ "Allowed GrupA", "Allowed GrupB" ]
+}
