@@ -45,7 +45,7 @@ namespace MSAL_dotnet6
                     if (verifyAccessPermission())
                     {
                         MessageBox.Show("Sucess!");
-                        this.Hide();
+                        Application.Exit();
                     }
                     else
                     {

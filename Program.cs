@@ -33,10 +33,9 @@ namespace MSAL_dotnet6
         {
 
             clientApp = PublicClientApplicationBuilder.Create(ClientId)
-                   .WithRedirectUri("https://login.microsoftonline.com/common/oauth2/nativeclient")
-                   //.WithDefaultRedirectUri()
-                   .WithAuthority(AzureCloudInstance.AzurePublic, Tenant)
-                   .Build();
+                .WithRedirectUri("https://login.microsoftonline.com/common/oauth2/nativeclient")
+                .WithAuthority(AzureCloudInstance.AzurePublic, Tenant)
+                .Build();
             //TokenCacheHelper.EnableSerialization(clientApp.UserTokenCache);
         }
 
